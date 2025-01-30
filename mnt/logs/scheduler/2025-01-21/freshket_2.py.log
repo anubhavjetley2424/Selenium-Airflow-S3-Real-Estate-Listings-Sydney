@@ -1,0 +1,116 @@
+[2025-01-21T15:00:23.222+0000] {processor.py:161} INFO - Started process (PID=15406) to work on /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:00:23.222+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/freshket_2.py for tasks to queue
+[2025-01-21T15:00:23.223+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:00:23.223+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:00:23.313+0000] {processor.py:840} INFO - DAG(s) 'freshket_2' retrieved from /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:00:23.364+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:00:23.363+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:freshket_2
+[2025-01-21T15:00:23.367+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:00:23.367+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:freshket_2
+[2025-01-21T15:00:23.370+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:00:23.370+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:freshket_2
+[2025-01-21T15:00:23.370+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:00:23.370+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-01-21T15:00:23.377+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:00:23.376+0000] {dag.py:3118} INFO - Creating ORM DAG for freshket_2
+[2025-01-21T15:00:23.377+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:00:23.377+0000] {dag.py:3954} INFO - Setting next_dagrun for freshket_2 to None, run_after=None
+[2025-01-21T15:00:23.383+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/freshket_2.py took 0.165 seconds
+[2025-01-21T15:00:53.454+0000] {processor.py:161} INFO - Started process (PID=15545) to work on /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:00:53.455+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/freshket_2.py for tasks to queue
+[2025-01-21T15:00:53.455+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:00:53.455+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:00:53.548+0000] {processor.py:840} INFO - DAG(s) 'freshket_2' retrieved from /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:00:53.562+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:00:53.562+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-01-21T15:00:53.569+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:00:53.569+0000] {dag.py:3954} INFO - Setting next_dagrun for freshket_2 to None, run_after=None
+[2025-01-21T15:00:53.578+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/freshket_2.py took 0.128 seconds
+[2025-01-21T15:01:11.431+0000] {processor.py:161} INFO - Started process (PID=15655) to work on /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:01:11.432+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/freshket_2.py for tasks to queue
+[2025-01-21T15:01:11.432+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:01:11.432+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:01:11.522+0000] {processor.py:840} INFO - DAG(s) 'freshket_2' retrieved from /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:01:11.536+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:01:11.536+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-01-21T15:01:11.542+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:01:11.542+0000] {dag.py:3954} INFO - Setting next_dagrun for freshket_2 to None, run_after=None
+[2025-01-21T15:01:11.551+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/freshket_2.py took 0.124 seconds
+[2025-01-21T15:01:41.722+0000] {processor.py:161} INFO - Started process (PID=15780) to work on /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:01:41.723+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/freshket_2.py for tasks to queue
+[2025-01-21T15:01:41.724+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:01:41.723+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:01:41.820+0000] {processor.py:840} INFO - DAG(s) 'freshket_2' retrieved from /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:01:41.836+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:01:41.835+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-01-21T15:01:41.842+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:01:41.842+0000] {dag.py:3954} INFO - Setting next_dagrun for freshket_2 to None, run_after=None
+[2025-01-21T15:01:41.852+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/freshket_2.py took 0.134 seconds
+[2025-01-21T15:02:12.390+0000] {processor.py:161} INFO - Started process (PID=16155) to work on /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:02:12.391+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/freshket_2.py for tasks to queue
+[2025-01-21T15:02:12.392+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:02:12.392+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:02:12.486+0000] {processor.py:840} INFO - DAG(s) 'freshket_2' retrieved from /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:02:12.501+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:02:12.501+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-01-21T15:02:12.507+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:02:12.507+0000] {dag.py:3954} INFO - Setting next_dagrun for freshket_2 to None, run_after=None
+[2025-01-21T15:02:12.515+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/freshket_2.py took 0.129 seconds
+[2025-01-21T15:02:43.045+0000] {processor.py:161} INFO - Started process (PID=16314) to work on /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:02:43.046+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/freshket_2.py for tasks to queue
+[2025-01-21T15:02:43.047+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:02:43.046+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:02:43.144+0000] {processor.py:840} INFO - DAG(s) 'freshket_2' retrieved from /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:02:43.162+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:02:43.161+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-01-21T15:02:43.168+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:02:43.168+0000] {dag.py:3954} INFO - Setting next_dagrun for freshket_2 to None, run_after=None
+[2025-01-21T15:02:43.180+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/freshket_2.py took 0.139 seconds
+[2025-01-21T15:03:13.717+0000] {processor.py:161} INFO - Started process (PID=16548) to work on /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:03:13.718+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/freshket_2.py for tasks to queue
+[2025-01-21T15:03:13.719+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:03:13.719+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:03:13.814+0000] {processor.py:840} INFO - DAG(s) 'freshket_2' retrieved from /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:03:13.829+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:03:13.829+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-01-21T15:03:13.836+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:03:13.836+0000] {dag.py:3954} INFO - Setting next_dagrun for freshket_2 to None, run_after=None
+[2025-01-21T15:03:13.843+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/freshket_2.py took 0.129 seconds
+[2025-01-21T15:03:44.355+0000] {processor.py:161} INFO - Started process (PID=16681) to work on /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:03:44.356+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/freshket_2.py for tasks to queue
+[2025-01-21T15:03:44.357+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:03:44.357+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:03:44.451+0000] {processor.py:840} INFO - DAG(s) 'freshket_2' retrieved from /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:03:44.466+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:03:44.465+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-01-21T15:03:44.473+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:03:44.472+0000] {dag.py:3954} INFO - Setting next_dagrun for freshket_2 to None, run_after=None
+[2025-01-21T15:03:44.480+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/freshket_2.py took 0.128 seconds
+[2025-01-21T15:04:15.031+0000] {processor.py:161} INFO - Started process (PID=16820) to work on /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:04:15.031+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/freshket_2.py for tasks to queue
+[2025-01-21T15:04:15.032+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:04:15.032+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:04:15.128+0000] {processor.py:840} INFO - DAG(s) 'freshket_2' retrieved from /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:04:15.145+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:04:15.144+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-01-21T15:04:15.151+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:04:15.151+0000] {dag.py:3954} INFO - Setting next_dagrun for freshket_2 to None, run_after=None
+[2025-01-21T15:04:15.159+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/freshket_2.py took 0.132 seconds
+[2025-01-21T15:04:45.456+0000] {processor.py:161} INFO - Started process (PID=16965) to work on /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:04:45.458+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/freshket_2.py for tasks to queue
+[2025-01-21T15:04:45.459+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:04:45.459+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:04:45.559+0000] {processor.py:840} INFO - DAG(s) 'freshket_2' retrieved from /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:04:45.575+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:04:45.575+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-01-21T15:04:45.581+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:04:45.581+0000] {dag.py:3954} INFO - Setting next_dagrun for freshket_2 to None, run_after=None
+[2025-01-21T15:04:45.590+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/freshket_2.py took 0.137 seconds
+[2025-01-21T15:05:15.829+0000] {processor.py:161} INFO - Started process (PID=17097) to work on /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:05:15.830+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/freshket_2.py for tasks to queue
+[2025-01-21T15:05:15.831+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:05:15.830+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:05:15.928+0000] {processor.py:840} INFO - DAG(s) 'freshket_2' retrieved from /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:05:15.944+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:05:15.944+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-01-21T15:05:15.950+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:05:15.950+0000] {dag.py:3954} INFO - Setting next_dagrun for freshket_2 to None, run_after=None
+[2025-01-21T15:05:15.958+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/freshket_2.py took 0.133 seconds
+[2025-01-21T15:05:46.486+0000] {processor.py:161} INFO - Started process (PID=17436) to work on /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:05:46.487+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/freshket_2.py for tasks to queue
+[2025-01-21T15:05:46.488+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:05:46.488+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:05:46.584+0000] {processor.py:840} INFO - DAG(s) 'freshket_2' retrieved from /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:05:46.685+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:05:46.685+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-01-21T15:05:46.691+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:05:46.691+0000] {dag.py:3954} INFO - Setting next_dagrun for freshket_2 to None, run_after=None
+[2025-01-21T15:05:46.699+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/freshket_2.py took 0.216 seconds
+[2025-01-21T15:06:17.070+0000] {processor.py:161} INFO - Started process (PID=17641) to work on /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:06:17.071+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/freshket_2.py for tasks to queue
+[2025-01-21T15:06:17.072+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:06:17.072+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:06:17.252+0000] {processor.py:840} INFO - DAG(s) 'freshket_2' retrieved from /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:06:17.266+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:06:17.266+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-01-21T15:06:17.272+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:06:17.272+0000] {dag.py:3954} INFO - Setting next_dagrun for freshket_2 to None, run_after=None
+[2025-01-21T15:06:17.281+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/freshket_2.py took 0.215 seconds
+[2025-01-21T15:06:47.644+0000] {processor.py:161} INFO - Started process (PID=17795) to work on /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:06:47.645+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/freshket_2.py for tasks to queue
+[2025-01-21T15:06:47.646+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:06:47.646+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:06:47.827+0000] {processor.py:840} INFO - DAG(s) 'freshket_2' retrieved from /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:06:47.841+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:06:47.841+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-01-21T15:06:47.847+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:06:47.847+0000] {dag.py:3954} INFO - Setting next_dagrun for freshket_2 to None, run_after=None
+[2025-01-21T15:06:47.855+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/freshket_2.py took 0.214 seconds
+[2025-01-21T15:07:18.195+0000] {processor.py:161} INFO - Started process (PID=17934) to work on /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:07:18.196+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/freshket_2.py for tasks to queue
+[2025-01-21T15:07:18.197+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:07:18.197+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:07:18.372+0000] {processor.py:840} INFO - DAG(s) 'freshket_2' retrieved from /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:07:18.385+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:07:18.384+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-01-21T15:07:18.390+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:07:18.390+0000] {dag.py:3954} INFO - Setting next_dagrun for freshket_2 to None, run_after=None
+[2025-01-21T15:07:18.398+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/freshket_2.py took 0.207 seconds
+[2025-01-21T15:07:48.787+0000] {processor.py:161} INFO - Started process (PID=18073) to work on /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:07:48.788+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/freshket_2.py for tasks to queue
+[2025-01-21T15:07:48.788+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:07:48.788+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:07:48.966+0000] {processor.py:840} INFO - DAG(s) 'freshket_2' retrieved from /opt/airflow/dags/freshket_2.py
+[2025-01-21T15:07:48.978+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:07:48.978+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-01-21T15:07:48.984+0000] {logging_mixin.py:188} INFO - [2025-01-21T15:07:48.984+0000] {dag.py:3954} INFO - Setting next_dagrun for freshket_2 to None, run_after=None
+[2025-01-21T15:07:48.992+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/freshket_2.py took 0.208 seconds

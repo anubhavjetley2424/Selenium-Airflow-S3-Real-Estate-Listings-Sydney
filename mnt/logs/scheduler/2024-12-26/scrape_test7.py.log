@@ -1,0 +1,11 @@
+[2024-12-26T13:17:29.026+0000] {processor.py:161} INFO - Started process (PID=6673) to work on /opt/airflow/dags/scrape_test7.py
+[2024-12-26T13:17:29.027+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test7.py for tasks to queue
+[2024-12-26T13:17:29.029+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:17:29.029+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test7.py
+[2024-12-26T13:17:29.496+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_dynamic_test7' retrieved from /opt/airflow/dags/scrape_test7.py
+[2024-12-26T13:17:29.651+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:17:29.650+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:scrape_lotus_products_dynamic_test7
+[2024-12-26T13:17:29.666+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:17:29.666+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:scrape_lotus_products_dynamic_test7
+[2024-12-26T13:17:29.678+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:17:29.677+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:scrape_lotus_products_dynamic_test7
+[2024-12-26T13:17:29.679+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:17:29.678+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:17:29.872+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:17:29.872+0000] {dag.py:3118} INFO - Creating ORM DAG for scrape_lotus_products_dynamic_test7
+[2024-12-26T13:17:29.874+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:17:29.874+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_dynamic_test7 to None, run_after=None
+[2024-12-26T13:17:29.900+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test7.py took 0.884 seconds

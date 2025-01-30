@@ -1,0 +1,172 @@
+version: '3.8'
+
+x-airflow-common:
+  &airflow-common
+  image: my-custom-airflow:latest
+  build:
+    context: .
+    dockerfile: Dockerfile
+  environment:
+    &airflow-common-env
+    AIRFLOW__CORE__EXECUTOR: LocalExecutor
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@airflow-metastore/airflow
+    AIRFLOW__CORE__FERNET_KEY: ''
+    AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
+    AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+    AIRFLOW__API__AUTH_BACKEND: 'airflow.api.auth.backend.basic_auth,airflow.api.auth.backend.session'
+    AIRFLOW__SCHEDULER__DAG_DIR_LIST_INTERVAL: 15
+    AIRFLOW__SCHEDULER__ENABLE_HEALTH_CHECK: 'true'
+    _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:-}
+    AIRFLOW_CONN_AWS_DEFAULT: "aws://admin:password@"
+  volumes:
+    - ./mnt/dags:/opt/airflow/dags
+    - ./mnt/logs:/opt/airflow/logs
+    - ./mnt/plugins:/opt/airflow/plugins
+    - ./mnt/tests:/opt/airflow/tests
+  user: "${AIRFLOW_UID:-50000}:${AIRFLOW_GID:-0}"
+  depends_on:
+    &airflow-common-depends-on
+    airflow-metastore:
+      condition: service_healthy
+
+services:
+  airflow-metastore:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - airflow-metastore-data-volume:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "airflow"]
+      interval: 5s
+      retries: 5
+    restart: always
+
+  airflow-webserver:
+    <<: *airflow-common
+    command: webserver
+    ports:
+      - 8080:8080
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
+      interval: 10s
+      timeout: 10s
+      retries: 5
+    restart: always
+    depends_on:
+      <<: *airflow-common-depends-on
+      airflow-init:
+        condition: service_completed_successfully
+
+  airflow-scheduler:
+    <<: *airflow-common
+    command: scheduler
+    healthcheck:
+      test: ["CMD-SHELL", 'airflow jobs check --job-type SchedulerJob --hostname "$${HOSTNAME}"']
+      interval: 10s
+      timeout: 10s
+      retries: 5
+    restart: always
+    depends_on:
+      <<: *airflow-common-depends-on
+      airflow-init:
+        condition: service_completed_successfully
+
+  airflow-init:
+    <<: *airflow-common
+    entrypoint: /bin/bash
+    command:
+      - -c
+      - |
+        exec /entrypoint airflow db upgrade
+    environment:
+      <<: *airflow-common-env
+      _AIRFLOW_DB_UPGRADE: 'true'
+      _AIRFLOW_WWW_USER_CREATE: 'true'
+      _AIRFLOW_WWW_USER_USERNAME: ${_AIRFLOW_WWW_USER_USERNAME:-airflow}
+      _AIRFLOW_WWW_USER_PASSWORD: ${_AIRFLOW_WWW_USER_PASSWORD:-airflow}
+    user: "0:${AIRFLOW_GID:-0}"
+    volumes:
+      - ./mnt:/sources
+
+  minio:
+    image: minio/minio
+    container_name: minio
+    environment:
+      MINIO_ROOT_USER: admin
+      MINIO_ROOT_PASSWORD: password
+    volumes:
+      - ./data/minio:/data
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    command: ["server", "/data", "--console-address", ":9001"]
+
+  mc:
+    image: minio/mc
+    container_name: mc
+    environment:
+      AWS_ACCESS_KEY_ID: admin
+      AWS_SECRET_ACCESS_KEY: password
+    depends_on:
+      - minio
+    volumes:
+      - ./init_minio.sh:/init_minio.sh
+    entrypoint: ["/init_minio.sh"]
+    user: root
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    environment:
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: admin
+    ports:
+      - "3000:3000"
+    depends_on:
+      - postgres
+    volumes:
+      - grafana-data:/var/lib/grafana
+
+  postgres:
+    image: postgres:15
+    container_name: postgres
+    environment:
+      POSTGRES_USER: postgres_user
+      POSTGRES_PASSWORD: postgres_password
+      POSTGRES_DB: my_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data-volume:/var/lib/postgresql/data
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@example.com
+      PGADMIN_DEFAULT_PASSWORD: admin1234
+    ports:
+      - "5050:80"
+    depends_on:
+      - postgres
+
+  jupyter:
+    image: jupyter/base-notebook:latest
+    container_name: jupyter
+    environment:
+      JUPYTER_ENABLE_LAB: "yes"
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./mnt:/home/jovyan/work  # เชื่อมต่อโฟลเดอร์ที่ต้องการใช้งาน
+    command: "start-notebook.sh --NotebookApp.token=''"
+
+
+volumes:
+  airflow-metastore-data-volume:
+  grafana-data:
+  postgres-data-volume:
+  minio-data-volume:

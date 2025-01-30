@@ -1,0 +1,826 @@
+[2024-12-26T12:17:37.437+0000] {processor.py:161} INFO - Started process (PID=197) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:17:37.438+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:17:37.439+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:17:37.439+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:17:37.492+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:17:37.505+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:17:37.505+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:17:37.535+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:17:37.535+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:17:37.553+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.122 seconds
+[2024-12-26T12:18:08.605+0000] {processor.py:161} INFO - Started process (PID=415) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:18:08.606+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:18:08.607+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:18:08.607+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:18:08.658+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:18:08.758+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:18:08.758+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:18:08.776+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:18:08.776+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:18:08.791+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.192 seconds
+[2024-12-26T12:18:39.448+0000] {processor.py:161} INFO - Started process (PID=475) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:18:39.449+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:18:39.451+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:18:39.451+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:18:39.519+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:18:39.542+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:18:39.542+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:18:39.565+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:18:39.565+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:18:39.594+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.156 seconds
+[2024-12-26T12:19:10.594+0000] {processor.py:161} INFO - Started process (PID=614) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:19:10.595+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:19:10.596+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:19:10.596+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:19:10.647+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:19:10.669+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:19:10.669+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:19:10.688+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:19:10.688+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:19:10.704+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.116 seconds
+[2024-12-26T12:19:41.603+0000] {processor.py:161} INFO - Started process (PID=662) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:19:41.603+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:19:41.605+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:19:41.604+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:19:41.655+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:19:41.677+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:19:41.677+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:19:41.695+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:19:41.695+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:19:41.721+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.125 seconds
+[2024-12-26T12:20:12.764+0000] {processor.py:161} INFO - Started process (PID=709) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:20:12.765+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:20:12.767+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:20:12.767+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:20:12.828+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:20:12.849+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:20:12.849+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:20:12.869+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:20:12.869+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:20:12.892+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.138 seconds
+[2024-12-26T12:20:43.396+0000] {processor.py:161} INFO - Started process (PID=750) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:20:43.397+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:20:43.398+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:20:43.398+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:20:43.451+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:20:43.473+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:20:43.473+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:20:43.492+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:20:43.492+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:20:43.516+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.126 seconds
+[2024-12-26T12:21:14.065+0000] {processor.py:161} INFO - Started process (PID=787) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:21:14.066+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:21:14.069+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:21:14.068+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:21:14.181+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:21:14.240+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:21:14.239+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:21:14.282+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:21:14.281+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:21:14.302+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.246 seconds
+[2024-12-26T12:21:44.757+0000] {processor.py:161} INFO - Started process (PID=830) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:21:44.758+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:21:44.761+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:21:44.761+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:21:44.863+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:21:44.893+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:21:44.893+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:21:44.920+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:21:44.920+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:21:44.939+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.193 seconds
+[2024-12-26T12:22:15.145+0000] {processor.py:161} INFO - Started process (PID=871) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:22:15.147+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:22:15.150+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:22:15.150+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:22:15.236+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:22:15.270+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:22:15.269+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:22:15.295+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:22:15.295+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:22:15.313+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.179 seconds
+[2024-12-26T12:22:45.862+0000] {processor.py:161} INFO - Started process (PID=910) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:22:45.871+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:22:45.874+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:22:45.873+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:22:45.950+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:22:45.980+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:22:45.980+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:22:46.005+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:22:46.004+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:22:46.033+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.181 seconds
+[2024-12-26T12:23:16.360+0000] {processor.py:161} INFO - Started process (PID=952) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:23:16.369+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:23:16.371+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:23:16.371+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:23:16.440+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:23:16.483+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:23:16.483+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:23:16.517+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:23:16.516+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:23:16.544+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.202 seconds
+[2024-12-26T12:23:46.745+0000] {processor.py:161} INFO - Started process (PID=1001) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:23:46.754+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:23:46.757+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:23:46.757+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:23:46.849+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:23:46.896+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:23:46.895+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:23:46.933+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:23:46.932+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:23:46.973+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.238 seconds
+[2024-12-26T12:24:17.161+0000] {processor.py:161} INFO - Started process (PID=1043) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:24:17.172+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:24:17.176+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:24:17.175+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:24:17.286+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:24:17.320+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:24:17.319+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:24:17.348+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:24:17.347+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:24:17.379+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.233 seconds
+[2024-12-26T12:24:47.644+0000] {processor.py:161} INFO - Started process (PID=1085) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:24:47.653+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:24:47.656+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:24:47.655+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:24:47.725+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:24:47.759+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:24:47.759+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:24:47.788+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:24:47.788+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:24:47.825+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.192 seconds
+[2024-12-26T12:25:18.523+0000] {processor.py:161} INFO - Started process (PID=1127) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:25:18.532+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:25:18.535+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:25:18.534+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:25:18.603+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:25:18.635+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:25:18.634+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:25:18.660+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:25:18.660+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:25:18.690+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.177 seconds
+[2024-12-26T12:25:48.951+0000] {processor.py:161} INFO - Started process (PID=1169) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:25:48.961+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:25:48.963+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:25:48.963+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:25:49.032+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:25:49.071+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:25:49.070+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:25:49.099+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:25:49.099+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:25:49.132+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.195 seconds
+[2024-12-26T12:26:19.385+0000] {processor.py:161} INFO - Started process (PID=1218) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:26:19.394+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:26:19.397+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:26:19.396+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:26:19.491+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:26:19.524+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:26:19.523+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:26:19.550+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:26:19.550+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:26:19.574+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.203 seconds
+[2024-12-26T12:26:49.863+0000] {processor.py:161} INFO - Started process (PID=1260) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:26:49.872+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:26:49.875+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:26:49.875+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:26:49.945+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:26:49.982+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:26:49.982+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:26:50.010+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:26:50.010+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:26:50.032+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.185 seconds
+[2024-12-26T12:27:20.837+0000] {processor.py:161} INFO - Started process (PID=1302) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:27:20.847+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:27:20.849+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:27:20.849+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:27:20.915+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:27:20.945+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:27:20.945+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:27:20.971+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:27:20.971+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:27:21.001+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.176 seconds
+[2024-12-26T12:27:51.235+0000] {processor.py:161} INFO - Started process (PID=1351) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:27:51.243+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:27:51.246+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:27:51.246+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:27:51.333+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:27:51.368+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:27:51.367+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:27:51.395+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:27:51.395+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:27:51.428+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.204 seconds
+[2024-12-26T12:28:21.701+0000] {processor.py:161} INFO - Started process (PID=1393) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:28:21.710+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:28:21.712+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:28:21.712+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:28:21.776+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:28:21.808+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:28:21.808+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:28:21.840+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:28:21.839+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:28:21.868+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.180 seconds
+[2024-12-26T12:28:52.204+0000] {processor.py:161} INFO - Started process (PID=1435) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:28:52.213+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:28:52.216+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:28:52.215+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:28:52.291+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:28:52.326+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:28:52.325+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:28:52.350+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:28:52.350+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:28:52.372+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.184 seconds
+[2024-12-26T12:29:23.364+0000] {processor.py:161} INFO - Started process (PID=1477) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:29:23.373+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:29:23.376+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:29:23.375+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:29:23.452+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:29:23.484+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:29:23.483+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:29:23.511+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:29:23.511+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:29:23.543+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.188 seconds
+[2024-12-26T12:29:53.842+0000] {processor.py:161} INFO - Started process (PID=1527) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:29:53.850+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:29:53.852+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:29:53.852+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:29:53.923+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:29:53.963+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:29:53.962+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:29:53.997+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:29:53.997+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:29:54.028+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.194 seconds
+[2024-12-26T12:30:24.302+0000] {processor.py:161} INFO - Started process (PID=1569) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:30:24.310+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:30:24.313+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:30:24.313+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:30:24.383+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:30:24.412+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:30:24.412+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:30:24.437+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:30:24.437+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:30:24.466+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.177 seconds
+[2024-12-26T12:30:54.811+0000] {processor.py:161} INFO - Started process (PID=1611) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:30:54.820+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:30:54.823+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:30:54.822+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:30:54.894+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:30:54.922+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:30:54.922+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:30:54.947+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:30:54.947+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:30:54.968+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.174 seconds
+[2024-12-26T12:31:25.984+0000] {processor.py:161} INFO - Started process (PID=1653) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:31:25.993+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:31:25.996+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:31:25.995+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:31:26.066+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:31:26.096+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:31:26.096+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:31:26.121+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:31:26.121+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:31:26.143+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.169 seconds
+[2024-12-26T12:31:56.411+0000] {processor.py:161} INFO - Started process (PID=1702) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:31:56.412+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:31:56.414+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:31:56.413+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:31:56.484+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:31:56.518+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:31:56.517+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:31:56.547+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:31:56.547+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:31:56.578+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.176 seconds
+[2024-12-26T12:32:26.797+0000] {processor.py:161} INFO - Started process (PID=1744) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:32:26.807+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:32:26.809+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:32:26.808+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:32:26.880+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:32:26.909+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:32:26.908+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:32:26.933+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:32:26.933+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:32:26.966+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.184 seconds
+[2024-12-26T12:32:57.278+0000] {processor.py:161} INFO - Started process (PID=1786) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:32:57.287+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:32:57.289+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:32:57.289+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:32:57.363+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:32:57.393+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:32:57.392+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:32:57.419+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:32:57.418+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:32:57.448+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.181 seconds
+[2024-12-26T12:33:27.507+0000] {processor.py:161} INFO - Started process (PID=1828) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:33:27.508+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:33:27.510+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:33:27.510+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:33:27.580+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:33:27.607+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:33:27.607+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:33:27.632+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:33:27.632+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:33:27.665+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.167 seconds
+[2024-12-26T12:33:57.909+0000] {processor.py:161} INFO - Started process (PID=1875) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:33:57.919+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:33:57.921+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:33:57.921+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:33:58.003+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:33:58.031+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:33:58.030+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:33:58.062+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:33:58.062+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:33:58.093+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.195 seconds
+[2024-12-26T12:34:28.395+0000] {processor.py:161} INFO - Started process (PID=1917) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:34:28.396+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:34:28.398+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:34:28.398+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:34:28.467+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:34:28.497+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:34:28.497+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:34:28.529+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:34:28.529+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:34:28.563+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.177 seconds
+[2024-12-26T12:34:58.963+0000] {processor.py:161} INFO - Started process (PID=1959) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:34:58.964+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:34:58.966+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:34:58.965+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:34:59.055+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:34:59.084+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:34:59.083+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:34:59.112+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:34:59.112+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:34:59.145+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.192 seconds
+[2024-12-26T12:35:29.310+0000] {processor.py:161} INFO - Started process (PID=2001) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:35:29.312+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:35:29.314+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:35:29.314+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:35:29.384+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:35:29.416+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:35:29.416+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:35:29.447+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:35:29.446+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:35:29.481+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.180 seconds
+[2024-12-26T12:35:59.870+0000] {processor.py:161} INFO - Started process (PID=2050) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:35:59.872+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:35:59.875+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:35:59.874+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:35:59.957+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:35:59.990+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:35:59.989+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:36:00.025+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:36:00.025+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:36:00.061+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.205 seconds
+[2024-12-26T12:36:30.185+0000] {processor.py:161} INFO - Started process (PID=2091) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:36:30.194+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:36:30.198+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:36:30.197+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:36:30.265+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:36:30.296+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:36:30.295+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:36:30.322+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:36:30.322+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:36:30.351+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.179 seconds
+[2024-12-26T12:37:00.874+0000] {processor.py:161} INFO - Started process (PID=2136) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:37:00.876+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:37:00.878+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:37:00.878+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:37:00.946+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:37:00.982+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:37:00.982+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:37:01.025+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:37:01.024+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:37:01.065+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.202 seconds
+[2024-12-26T12:37:31.138+0000] {processor.py:161} INFO - Started process (PID=2180) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:37:31.146+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:37:31.149+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:37:31.148+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:37:31.223+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:37:31.260+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:37:31.259+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:37:31.291+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:37:31.290+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:37:31.314+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.185 seconds
+[2024-12-26T12:38:01.570+0000] {processor.py:161} INFO - Started process (PID=2227) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:38:01.578+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:38:01.580+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:38:01.580+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:38:01.646+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:38:01.679+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:38:01.678+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:38:01.706+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:38:01.705+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:38:01.732+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.174 seconds
+[2024-12-26T12:38:31.939+0000] {processor.py:161} INFO - Started process (PID=2280) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:38:31.948+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:38:31.950+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:38:31.949+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:38:32.022+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:38:32.053+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:38:32.052+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:38:32.080+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:38:32.080+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:38:32.114+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.183 seconds
+[2024-12-26T12:39:02.231+0000] {processor.py:161} INFO - Started process (PID=2326) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:39:02.240+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:39:02.242+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:39:02.241+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:39:02.300+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:39:02.325+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:39:02.325+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:39:02.347+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:39:02.347+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:39:02.371+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.150 seconds
+[2024-12-26T12:39:32.946+0000] {processor.py:161} INFO - Started process (PID=2373) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:39:32.947+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:39:32.949+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:39:32.948+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:39:33.004+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:39:33.026+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:39:33.026+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:39:33.046+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:39:33.045+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:39:33.072+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.134 seconds
+[2024-12-26T12:40:03.695+0000] {processor.py:161} INFO - Started process (PID=2427) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:40:03.703+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:40:03.704+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:40:03.704+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:40:03.755+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:40:03.777+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:40:03.777+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:40:03.797+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:40:03.797+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:40:03.813+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.124 seconds
+[2024-12-26T12:40:33.859+0000] {processor.py:161} INFO - Started process (PID=2474) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:40:33.860+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:40:33.862+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:40:33.862+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:40:33.918+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:40:33.939+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:40:33.939+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:40:33.960+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:40:33.960+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:40:33.976+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.124 seconds
+[2024-12-26T12:41:04.562+0000] {processor.py:161} INFO - Started process (PID=2521) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:41:04.562+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:41:04.564+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:41:04.563+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:41:04.613+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:41:04.635+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:41:04.635+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:41:04.654+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:41:04.654+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:41:04.669+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.113 seconds
+[2024-12-26T12:41:35.681+0000] {processor.py:161} INFO - Started process (PID=2817) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:41:35.682+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:41:35.685+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:41:35.684+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:41:35.837+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:41:35.893+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:41:35.892+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:41:35.939+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:41:35.938+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:41:35.973+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.303 seconds
+[2024-12-26T12:42:06.600+0000] {processor.py:161} INFO - Started process (PID=2988) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:42:06.601+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:42:06.603+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:42:06.602+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:42:06.656+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:42:06.678+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:42:06.678+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:42:06.696+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:42:06.696+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:42:06.721+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.128 seconds
+[2024-12-26T12:42:38.148+0000] {processor.py:161} INFO - Started process (PID=3035) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:42:38.149+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:42:38.151+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:42:38.150+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:42:38.206+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:42:38.229+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:42:38.228+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:42:38.249+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:42:38.249+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:42:38.265+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.125 seconds
+[2024-12-26T12:43:09.290+0000] {processor.py:161} INFO - Started process (PID=3092) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:43:09.291+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:43:09.292+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:43:09.292+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:43:09.352+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:43:09.382+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:43:09.382+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:43:09.408+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:43:09.408+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:43:09.428+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.144 seconds
+[2024-12-26T12:43:39.536+0000] {processor.py:161} INFO - Started process (PID=3132) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:43:39.537+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:43:39.538+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:43:39.538+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:43:39.592+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:43:39.614+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:43:39.614+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:43:39.633+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:43:39.633+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:43:39.657+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.127 seconds
+[2024-12-26T12:44:09.998+0000] {processor.py:161} INFO - Started process (PID=3181) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:44:09.999+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:44:10.000+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:44:10.000+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:44:10.051+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:44:10.077+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:44:10.077+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:44:10.098+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:44:10.097+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:44:10.123+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.131 seconds
+[2024-12-26T12:44:40.840+0000] {processor.py:161} INFO - Started process (PID=3233) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:44:40.841+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:44:40.842+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:44:40.842+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:44:40.893+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:44:40.915+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:44:40.915+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:44:40.935+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:44:40.935+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:44:40.955+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.120 seconds
+[2024-12-26T12:45:11.170+0000] {processor.py:161} INFO - Started process (PID=3570) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:45:11.171+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:45:11.174+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:45:11.174+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:45:11.240+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:45:11.268+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:45:11.267+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:45:11.296+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:45:11.296+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:45:11.320+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.159 seconds
+[2024-12-26T12:45:41.639+0000] {processor.py:161} INFO - Started process (PID=3612) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:45:41.640+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:45:41.644+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:45:41.643+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:45:41.724+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:45:41.757+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:45:41.757+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:45:41.786+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:45:41.786+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:45:41.819+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.194 seconds
+[2024-12-26T12:46:12.012+0000] {processor.py:161} INFO - Started process (PID=3666) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:46:12.013+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:46:12.015+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:46:12.015+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:46:12.120+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:46:12.160+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:46:12.159+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:46:12.193+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:46:12.192+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:46:12.230+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.227 seconds
+[2024-12-26T12:46:42.533+0000] {processor.py:161} INFO - Started process (PID=3713) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:46:42.534+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:46:42.536+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:46:42.536+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:46:42.606+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:46:42.639+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:46:42.638+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:46:42.668+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:46:42.668+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:46:42.703+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.181 seconds
+[2024-12-26T12:47:12.984+0000] {processor.py:161} INFO - Started process (PID=3760) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:47:12.985+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:47:12.989+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:47:12.988+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:47:13.064+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:47:13.096+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:47:13.096+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:47:13.123+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:47:13.123+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:47:13.154+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.180 seconds
+[2024-12-26T12:47:43.354+0000] {processor.py:161} INFO - Started process (PID=3807) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:47:43.355+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:47:43.357+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:47:43.356+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:47:43.427+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:47:43.460+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:47:43.460+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:47:43.493+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:47:43.492+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:47:43.526+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.182 seconds
+[2024-12-26T12:48:13.886+0000] {processor.py:161} INFO - Started process (PID=3861) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:48:13.888+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:48:13.892+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:48:13.891+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:48:13.972+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:48:14.008+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:48:14.007+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:48:14.042+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:48:14.042+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:48:14.078+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.200 seconds
+[2024-12-26T12:48:44.217+0000] {processor.py:161} INFO - Started process (PID=3905) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:48:44.226+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:48:44.229+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:48:44.229+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:48:44.297+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:48:44.325+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:48:44.325+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:48:44.350+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:48:44.350+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:48:44.377+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.182 seconds
+[2024-12-26T12:49:14.432+0000] {processor.py:161} INFO - Started process (PID=3952) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:49:14.434+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:49:14.436+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:49:14.436+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:49:14.508+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:49:14.540+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:49:14.540+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:49:14.565+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:49:14.565+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:49:14.597+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.174 seconds
+[2024-12-26T12:49:44.880+0000] {processor.py:161} INFO - Started process (PID=3999) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:49:44.884+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:49:44.887+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:49:44.887+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:49:44.961+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:49:44.989+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:49:44.989+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:49:45.013+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:49:45.013+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:49:45.042+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.173 seconds
+[2024-12-26T12:50:15.508+0000] {processor.py:161} INFO - Started process (PID=4053) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:50:15.517+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:50:15.519+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:50:15.518+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:50:15.586+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:50:15.619+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:50:15.619+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:50:15.651+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:50:15.651+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:50:15.685+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.185 seconds
+[2024-12-26T12:50:45.834+0000] {processor.py:161} INFO - Started process (PID=4100) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:50:45.835+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:50:45.840+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:50:45.839+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:50:45.991+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:50:46.042+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:50:46.041+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:50:46.085+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:50:46.084+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:50:46.118+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.300 seconds
+[2024-12-26T12:51:16.183+0000] {processor.py:161} INFO - Started process (PID=4147) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:51:16.193+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:51:16.195+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:51:16.195+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:51:16.316+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:51:16.366+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:51:16.365+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:51:16.415+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:51:16.415+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:51:16.451+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.288 seconds
+[2024-12-26T12:51:46.878+0000] {processor.py:161} INFO - Started process (PID=4194) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:51:46.887+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:51:46.890+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:51:46.889+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:51:46.957+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:51:46.989+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:51:46.989+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:51:47.016+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:51:47.015+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:51:47.046+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.190 seconds
+[2024-12-26T12:52:17.372+0000] {processor.py:161} INFO - Started process (PID=4241) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:52:17.382+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:52:17.385+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:52:17.384+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:52:17.450+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:52:17.476+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:52:17.476+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:52:17.498+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:52:17.497+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:52:17.527+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.167 seconds
+[2024-12-26T12:52:48.308+0000] {processor.py:161} INFO - Started process (PID=4295) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:52:48.316+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:52:48.318+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:52:48.318+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:52:48.374+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:52:48.400+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:52:48.399+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:52:48.423+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:52:48.423+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:52:48.456+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.154 seconds
+[2024-12-26T12:53:19.208+0000] {processor.py:161} INFO - Started process (PID=4342) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:53:19.216+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:53:19.220+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:53:19.219+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:53:19.280+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:53:19.305+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:53:19.305+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:53:19.327+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:53:19.326+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:53:19.354+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.166 seconds
+[2024-12-26T12:53:49.548+0000] {processor.py:161} INFO - Started process (PID=4389) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:53:49.557+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:53:49.560+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:53:49.559+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:53:49.620+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:53:49.646+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:53:49.645+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:53:49.668+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:53:49.668+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:53:49.695+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.165 seconds
+[2024-12-26T12:54:20.419+0000] {processor.py:161} INFO - Started process (PID=4443) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:54:20.428+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:54:20.430+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:54:20.429+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:54:20.489+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:54:20.515+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:54:20.515+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:54:20.539+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:54:20.539+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:54:20.563+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.151 seconds
+[2024-12-26T12:54:51.283+0000] {processor.py:161} INFO - Started process (PID=4490) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:54:51.285+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:54:51.287+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:54:51.287+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:54:51.349+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:54:51.374+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:54:51.374+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:54:51.397+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:54:51.397+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:54:51.422+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.152 seconds
+[2024-12-26T12:55:21.515+0000] {processor.py:161} INFO - Started process (PID=4538) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:55:21.523+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:55:21.526+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:55:21.525+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:55:21.590+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:55:21.615+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:55:21.615+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:55:21.640+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:55:21.639+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:55:21.658+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.152 seconds
+[2024-12-26T12:55:51.726+0000] {processor.py:161} INFO - Started process (PID=4592) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:55:51.735+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:55:51.736+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:55:51.736+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:55:51.807+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:55:51.836+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:55:51.836+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:55:51.858+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:55:51.858+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:55:51.885+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.166 seconds
+[2024-12-26T12:56:22.619+0000] {processor.py:161} INFO - Started process (PID=4639) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:56:22.628+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:56:22.630+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:56:22.630+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:56:22.692+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:56:22.717+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:56:22.717+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:56:22.740+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:56:22.740+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:56:22.764+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.164 seconds
+[2024-12-26T12:56:53.468+0000] {processor.py:161} INFO - Started process (PID=4686) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:56:53.477+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:56:53.481+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:56:53.480+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:56:53.557+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:56:53.582+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:56:53.581+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:56:53.604+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:56:53.604+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:56:53.639+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.187 seconds
+[2024-12-26T12:57:24.292+0000] {processor.py:161} INFO - Started process (PID=4740) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:57:24.301+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:57:24.303+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:57:24.303+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:57:24.380+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:57:24.408+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:57:24.408+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:57:24.430+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:57:24.430+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:57:24.458+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.173 seconds
+[2024-12-26T12:57:54.533+0000] {processor.py:161} INFO - Started process (PID=4787) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:57:54.542+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:57:54.544+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:57:54.543+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:57:54.604+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:57:54.629+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:57:54.629+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:57:54.651+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:57:54.651+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:57:54.677+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.158 seconds
+[2024-12-26T12:58:25.625+0000] {processor.py:161} INFO - Started process (PID=4834) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:58:25.635+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:58:25.639+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:58:25.638+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:58:25.704+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:58:25.730+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:58:25.730+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:58:25.759+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:58:25.759+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:58:25.785+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.178 seconds
+[2024-12-26T12:58:56.518+0000] {processor.py:161} INFO - Started process (PID=4888) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:58:56.519+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:58:56.520+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:58:56.520+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:58:56.577+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:58:56.603+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:58:56.602+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:58:56.625+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:58:56.625+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:58:56.651+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.140 seconds
+[2024-12-26T12:59:26.768+0000] {processor.py:161} INFO - Started process (PID=4935) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:59:26.777+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:59:26.780+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:59:26.779+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:59:26.839+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:59:26.864+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:59:26.864+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:59:26.887+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:59:26.886+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:59:26.912+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.165 seconds
+[2024-12-26T12:59:57.845+0000] {processor.py:161} INFO - Started process (PID=4981) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:59:57.846+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T12:59:57.848+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:59:57.848+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:59:57.904+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T12:59:57.930+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:59:57.929+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T12:59:57.953+0000] {logging_mixin.py:188} INFO - [2024-12-26T12:59:57.952+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T12:59:57.972+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.134 seconds
+[2024-12-26T13:00:28.667+0000] {processor.py:161} INFO - Started process (PID=5035) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:00:28.668+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:00:28.669+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:00:28.669+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:00:28.731+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:00:28.756+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:00:28.756+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:00:28.778+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:00:28.778+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:00:28.804+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.145 seconds
+[2024-12-26T13:00:59.021+0000] {processor.py:161} INFO - Started process (PID=5082) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:00:59.023+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:00:59.026+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:00:59.025+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:00:59.095+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:00:59.121+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:00:59.121+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:00:59.144+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:00:59.144+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:00:59.163+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.163 seconds
+[2024-12-26T13:01:29.975+0000] {processor.py:161} INFO - Started process (PID=5129) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:01:29.976+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:01:29.978+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:01:29.977+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:01:30.038+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:01:30.062+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:01:30.062+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:01:30.085+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:01:30.085+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:01:30.113+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.146 seconds
+[2024-12-26T13:02:00.776+0000] {processor.py:161} INFO - Started process (PID=5183) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:02:00.784+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:02:00.786+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:02:00.786+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:02:00.843+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:02:00.869+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:02:00.869+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:02:00.894+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:02:00.893+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:02:00.921+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.151 seconds
+[2024-12-26T13:02:31.704+0000] {processor.py:161} INFO - Started process (PID=5230) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:02:31.713+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:02:31.715+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:02:31.715+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:02:31.775+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:02:31.801+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:02:31.800+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:02:31.822+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:02:31.822+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:02:31.849+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.160 seconds
+[2024-12-26T13:03:02.166+0000] {processor.py:161} INFO - Started process (PID=5276) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:03:02.175+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:03:02.177+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:03:02.176+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:03:02.236+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:03:02.261+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:03:02.260+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:03:02.283+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:03:02.283+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:03:02.310+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.164 seconds
+[2024-12-26T13:03:33.001+0000] {processor.py:161} INFO - Started process (PID=5330) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:03:33.010+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:03:33.012+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:03:33.011+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:03:33.099+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:03:33.125+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:03:33.125+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:03:33.153+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:03:33.152+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:03:33.172+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.180 seconds
+[2024-12-26T13:04:03.867+0000] {processor.py:161} INFO - Started process (PID=5377) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:04:03.876+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:04:03.878+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:04:03.878+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:04:03.940+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:04:03.964+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:04:03.964+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:04:03.986+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:04:03.986+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:04:04.012+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.162 seconds
+[2024-12-26T13:04:34.671+0000] {processor.py:161} INFO - Started process (PID=5424) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:04:34.676+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:04:34.678+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:04:34.678+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:04:34.739+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:04:34.765+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:04:34.764+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:04:34.788+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:04:34.787+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:04:34.813+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.152 seconds
+[2024-12-26T13:05:05.189+0000] {processor.py:161} INFO - Started process (PID=5478) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:05:05.197+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:05:05.199+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:05:05.199+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:05:05.257+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:05:05.283+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:05:05.283+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:05:05.314+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:05:05.313+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:05:05.347+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.165 seconds
+[2024-12-26T13:05:35.502+0000] {processor.py:161} INFO - Started process (PID=5525) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:05:35.511+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:05:35.514+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:05:35.513+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:05:35.576+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:05:35.602+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:05:35.602+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:05:35.624+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:05:35.624+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:05:35.652+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.169 seconds
+[2024-12-26T13:06:06.367+0000] {processor.py:161} INFO - Started process (PID=5572) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:06:06.376+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:06:06.378+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:06:06.378+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:06:06.437+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:06:06.463+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:06:06.463+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:06:06.486+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:06:06.486+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:06:06.512+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.154 seconds
+[2024-12-26T13:06:37.184+0000] {processor.py:161} INFO - Started process (PID=5626) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:06:37.186+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:06:37.187+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:06:37.187+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:06:37.255+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:06:37.285+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:06:37.284+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:06:37.307+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:06:37.307+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:06:37.333+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.156 seconds
+[2024-12-26T13:07:08.010+0000] {processor.py:161} INFO - Started process (PID=5673) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:07:08.019+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:07:08.022+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:07:08.021+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:07:08.081+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:07:08.106+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:07:08.106+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:07:08.129+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:07:08.128+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:07:08.157+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.160 seconds
+[2024-12-26T13:07:38.714+0000] {processor.py:161} INFO - Started process (PID=5720) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:07:38.723+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:07:38.728+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:07:38.728+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:07:38.789+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:07:38.811+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:07:38.811+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:07:38.832+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:07:38.832+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:07:38.868+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.165 seconds
+[2024-12-26T13:08:08.954+0000] {processor.py:161} INFO - Started process (PID=5774) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:08:08.955+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:08:08.957+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:08:08.957+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:08:09.015+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:08:09.044+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:08:09.044+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:08:09.074+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:08:09.073+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:08:09.105+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.158 seconds
+[2024-12-26T13:08:39.433+0000] {processor.py:161} INFO - Started process (PID=5821) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:08:39.434+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:08:39.437+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:08:39.436+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:08:39.498+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:08:39.524+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:08:39.523+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:08:39.545+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:08:39.544+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:08:39.564+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.145 seconds
+[2024-12-26T13:09:10.285+0000] {processor.py:161} INFO - Started process (PID=5868) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:09:10.294+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:09:10.297+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:09:10.296+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:09:10.359+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:09:10.387+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:09:10.387+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:09:10.409+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:09:10.409+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:09:10.438+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.173 seconds
+[2024-12-26T13:09:41.091+0000] {processor.py:161} INFO - Started process (PID=5922) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:09:41.100+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:09:41.102+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:09:41.101+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:09:41.164+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:09:41.194+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:09:41.193+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:09:41.217+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:09:41.217+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:09:41.235+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.151 seconds
+[2024-12-26T13:10:11.380+0000] {processor.py:161} INFO - Started process (PID=5969) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:10:11.389+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:10:11.392+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:10:11.392+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:10:11.451+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:10:11.475+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:10:11.474+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:10:11.497+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:10:11.497+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:10:11.523+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.162 seconds
+[2024-12-26T13:10:42.477+0000] {processor.py:161} INFO - Started process (PID=6016) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:10:42.486+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:10:42.490+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:10:42.490+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:10:42.558+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:10:42.592+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:10:42.591+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:10:42.625+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:10:42.624+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:10:42.650+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.187 seconds
+[2024-12-26T13:11:13.279+0000] {processor.py:161} INFO - Started process (PID=6070) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:11:13.288+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:11:13.289+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:11:13.289+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:11:13.345+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:11:13.372+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:11:13.372+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:11:13.399+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:11:13.399+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:11:13.420+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.147 seconds
+[2024-12-26T13:11:43.486+0000] {processor.py:161} INFO - Started process (PID=6117) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:11:43.495+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:11:43.497+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:11:43.497+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:11:43.557+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:11:43.583+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:11:43.582+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:11:43.607+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:11:43.606+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:11:43.632+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.165 seconds
+[2024-12-26T13:12:14.387+0000] {processor.py:161} INFO - Started process (PID=6164) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:12:14.388+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:12:14.390+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:12:14.390+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:12:14.452+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:12:14.476+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:12:14.476+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:12:14.498+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:12:14.498+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:12:14.525+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.150 seconds
+[2024-12-26T13:12:44.665+0000] {processor.py:161} INFO - Started process (PID=6218) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:12:44.666+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:12:44.667+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:12:44.667+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:12:44.726+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:12:44.752+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:12:44.752+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:12:44.776+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:12:44.776+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:12:44.800+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.141 seconds
+[2024-12-26T13:13:15.528+0000] {processor.py:161} INFO - Started process (PID=6265) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:13:15.538+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:13:15.540+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:13:15.539+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:13:15.601+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:13:15.626+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:13:15.626+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:13:15.649+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:13:15.649+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:13:15.673+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.162 seconds
+[2024-12-26T13:13:46.361+0000] {processor.py:161} INFO - Started process (PID=6312) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:13:46.363+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:13:46.365+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:13:46.364+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:13:46.426+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:13:46.452+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:13:46.451+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:13:46.476+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:13:46.476+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:13:46.501+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.150 seconds
+[2024-12-26T13:14:16.633+0000] {processor.py:161} INFO - Started process (PID=6366) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:14:16.641+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:14:16.642+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:14:16.642+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:14:16.701+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:14:16.730+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:14:16.729+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:14:16.753+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:14:16.752+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:14:16.772+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.147 seconds
+[2024-12-26T13:14:47.502+0000] {processor.py:161} INFO - Started process (PID=6413) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:14:47.511+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:14:47.513+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:14:47.513+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:14:47.573+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:14:47.598+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:14:47.598+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:14:47.621+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:14:47.620+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:14:47.640+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.153 seconds
+[2024-12-26T13:15:17.845+0000] {processor.py:161} INFO - Started process (PID=6460) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:15:17.854+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:15:17.857+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:15:17.856+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:15:17.943+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:15:17.977+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:15:17.977+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:15:18.002+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:15:18.002+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:15:18.030+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.196 seconds
+[2024-12-26T13:15:48.704+0000] {processor.py:161} INFO - Started process (PID=6515) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:15:48.712+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:15:48.714+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:15:48.714+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:15:48.775+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:15:48.803+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:15:48.803+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:15:48.826+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:15:48.826+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:15:48.854+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.158 seconds
+[2024-12-26T13:16:19.142+0000] {processor.py:161} INFO - Started process (PID=6562) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:16:19.143+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:16:19.146+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:16:19.145+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:16:19.209+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:16:19.237+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:16:19.236+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:16:19.264+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:16:19.263+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:16:19.289+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.154 seconds
+[2024-12-26T13:16:49.664+0000] {processor.py:161} INFO - Started process (PID=6606) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:16:49.665+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:16:49.666+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:16:49.666+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:16:49.750+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:16:49.788+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:16:49.787+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:16:49.821+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:16:49.821+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:16:49.846+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.191 seconds
+[2024-12-26T13:17:20.726+0000] {processor.py:161} INFO - Started process (PID=6650) to work on /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:17:20.728+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_test1.py for tasks to queue
+[2024-12-26T13:17:20.731+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:17:20.730+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:17:20.802+0000] {processor.py:840} INFO - DAG(s) 'scrape_lotus_products_by_tag' retrieved from /opt/airflow/dags/scrape_test1.py
+[2024-12-26T13:17:20.834+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:17:20.834+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-12-26T13:17:20.864+0000] {logging_mixin.py:188} INFO - [2024-12-26T13:17:20.863+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_lotus_products_by_tag to 2024-12-25 00:00:00+00:00, run_after=2024-12-26 00:00:00+00:00
+[2024-12-26T13:17:20.891+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_test1.py took 0.173 seconds
