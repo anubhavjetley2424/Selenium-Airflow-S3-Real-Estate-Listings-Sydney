@@ -1552,3 +1552,94 @@
 [2025-01-30T15:02:04.139+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:02:04.139+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2025-01-30T15:02:04.144+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:02:04.144+0000] {dag.py:3954} INFO - Setting next_dagrun for BigC_1 to None, run_after=None
 [2025-01-30T15:02:04.151+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bigC_1.py took 0.136 seconds
+[2025-01-30T15:02:34.260+0000] {processor.py:161} INFO - Started process (PID=31879) to work on /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:02:34.261+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bigC_1.py for tasks to queue
+[2025-01-30T15:02:34.261+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:02:34.261+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:02:34.365+0000] {processor.py:840} INFO - DAG(s) 'BigC_1' retrieved from /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:02:34.380+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:02:34.380+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-01-30T15:02:34.386+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:02:34.386+0000] {dag.py:3954} INFO - Setting next_dagrun for BigC_1 to None, run_after=None
+[2025-01-30T15:02:34.394+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bigC_1.py took 0.137 seconds
+[2025-01-30T15:03:04.494+0000] {processor.py:161} INFO - Started process (PID=31905) to work on /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:03:04.495+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bigC_1.py for tasks to queue
+[2025-01-30T15:03:04.495+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:03:04.495+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:03:04.601+0000] {processor.py:840} INFO - DAG(s) 'BigC_1' retrieved from /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:03:04.616+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:03:04.615+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-01-30T15:03:04.621+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:03:04.621+0000] {dag.py:3954} INFO - Setting next_dagrun for BigC_1 to None, run_after=None
+[2025-01-30T15:03:04.629+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bigC_1.py took 0.140 seconds
+[2025-01-30T15:03:34.740+0000] {processor.py:161} INFO - Started process (PID=31931) to work on /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:03:34.740+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bigC_1.py for tasks to queue
+[2025-01-30T15:03:34.741+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:03:34.741+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:03:34.852+0000] {processor.py:840} INFO - DAG(s) 'BigC_1' retrieved from /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:03:34.867+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:03:34.866+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-01-30T15:03:34.872+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:03:34.872+0000] {dag.py:3954} INFO - Setting next_dagrun for BigC_1 to None, run_after=None
+[2025-01-30T15:03:34.879+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bigC_1.py took 0.144 seconds
+[2025-01-30T15:04:04.996+0000] {processor.py:161} INFO - Started process (PID=31950) to work on /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:04:04.996+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bigC_1.py for tasks to queue
+[2025-01-30T15:04:04.997+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:04:04.997+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:04:05.101+0000] {processor.py:840} INFO - DAG(s) 'BigC_1' retrieved from /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:04:05.116+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:04:05.116+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-01-30T15:04:05.122+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:04:05.122+0000] {dag.py:3954} INFO - Setting next_dagrun for BigC_1 to None, run_after=None
+[2025-01-30T15:04:05.129+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bigC_1.py took 0.136 seconds
+[2025-01-30T15:04:35.242+0000] {processor.py:161} INFO - Started process (PID=31976) to work on /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:04:35.242+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bigC_1.py for tasks to queue
+[2025-01-30T15:04:35.243+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:04:35.243+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:04:35.352+0000] {processor.py:840} INFO - DAG(s) 'BigC_1' retrieved from /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:04:35.367+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:04:35.367+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-01-30T15:04:35.373+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:04:35.372+0000] {dag.py:3954} INFO - Setting next_dagrun for BigC_1 to None, run_after=None
+[2025-01-30T15:04:35.380+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bigC_1.py took 0.142 seconds
+[2025-01-30T15:05:05.492+0000] {processor.py:161} INFO - Started process (PID=31995) to work on /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:05:05.493+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bigC_1.py for tasks to queue
+[2025-01-30T15:05:05.493+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:05:05.493+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:05:05.597+0000] {processor.py:840} INFO - DAG(s) 'BigC_1' retrieved from /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:05:05.611+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:05:05.611+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-01-30T15:05:05.618+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:05:05.617+0000] {dag.py:3954} INFO - Setting next_dagrun for BigC_1 to None, run_after=None
+[2025-01-30T15:05:05.625+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bigC_1.py took 0.137 seconds
+[2025-01-30T15:05:35.745+0000] {processor.py:161} INFO - Started process (PID=32021) to work on /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:05:35.746+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bigC_1.py for tasks to queue
+[2025-01-30T15:05:35.746+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:05:35.746+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:05:35.861+0000] {processor.py:840} INFO - DAG(s) 'BigC_1' retrieved from /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:05:35.880+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:05:35.879+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-01-30T15:05:35.887+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:05:35.887+0000] {dag.py:3954} INFO - Setting next_dagrun for BigC_1 to None, run_after=None
+[2025-01-30T15:05:35.895+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bigC_1.py took 0.155 seconds
+[2025-01-30T15:06:06.005+0000] {processor.py:161} INFO - Started process (PID=32047) to work on /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:06:06.006+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bigC_1.py for tasks to queue
+[2025-01-30T15:06:06.006+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:06:06.006+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:06:06.110+0000] {processor.py:840} INFO - DAG(s) 'BigC_1' retrieved from /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:06:06.126+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:06:06.125+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-01-30T15:06:06.132+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:06:06.132+0000] {dag.py:3954} INFO - Setting next_dagrun for BigC_1 to None, run_after=None
+[2025-01-30T15:06:06.140+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bigC_1.py took 0.139 seconds
+[2025-01-30T15:06:36.254+0000] {processor.py:161} INFO - Started process (PID=32066) to work on /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:06:36.255+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bigC_1.py for tasks to queue
+[2025-01-30T15:06:36.256+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:06:36.256+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:06:36.360+0000] {processor.py:840} INFO - DAG(s) 'BigC_1' retrieved from /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:06:36.376+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:06:36.376+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-01-30T15:06:36.383+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:06:36.383+0000] {dag.py:3954} INFO - Setting next_dagrun for BigC_1 to None, run_after=None
+[2025-01-30T15:06:36.390+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bigC_1.py took 0.139 seconds
+[2025-01-30T15:07:06.506+0000] {processor.py:161} INFO - Started process (PID=32092) to work on /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:07:06.508+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bigC_1.py for tasks to queue
+[2025-01-30T15:07:06.508+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:07:06.508+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:07:06.612+0000] {processor.py:840} INFO - DAG(s) 'BigC_1' retrieved from /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:07:06.627+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:07:06.627+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-01-30T15:07:06.633+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:07:06.633+0000] {dag.py:3954} INFO - Setting next_dagrun for BigC_1 to None, run_after=None
+[2025-01-30T15:07:06.641+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bigC_1.py took 0.138 seconds
+[2025-01-30T15:07:36.758+0000] {processor.py:161} INFO - Started process (PID=32118) to work on /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:07:36.759+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bigC_1.py for tasks to queue
+[2025-01-30T15:07:36.759+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:07:36.759+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:07:36.863+0000] {processor.py:840} INFO - DAG(s) 'BigC_1' retrieved from /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:07:36.878+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:07:36.878+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-01-30T15:07:36.884+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:07:36.884+0000] {dag.py:3954} INFO - Setting next_dagrun for BigC_1 to None, run_after=None
+[2025-01-30T15:07:36.892+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bigC_1.py took 0.137 seconds
+[2025-01-30T15:08:07.010+0000] {processor.py:161} INFO - Started process (PID=32137) to work on /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:08:07.011+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bigC_1.py for tasks to queue
+[2025-01-30T15:08:07.012+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:08:07.012+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:08:07.118+0000] {processor.py:840} INFO - DAG(s) 'BigC_1' retrieved from /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:08:07.133+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:08:07.133+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-01-30T15:08:07.139+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:08:07.139+0000] {dag.py:3954} INFO - Setting next_dagrun for BigC_1 to None, run_after=None
+[2025-01-30T15:08:07.147+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bigC_1.py took 0.140 seconds
+[2025-01-30T15:08:37.259+0000] {processor.py:161} INFO - Started process (PID=32164) to work on /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:08:37.260+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bigC_1.py for tasks to queue
+[2025-01-30T15:08:37.260+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:08:37.260+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:08:37.370+0000] {processor.py:840} INFO - DAG(s) 'BigC_1' retrieved from /opt/airflow/dags/bigC_1.py
+[2025-01-30T15:08:37.386+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:08:37.386+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-01-30T15:08:37.392+0000] {logging_mixin.py:188} INFO - [2025-01-30T15:08:37.391+0000] {dag.py:3954} INFO - Setting next_dagrun for BigC_1 to None, run_after=None
+[2025-01-30T15:08:37.400+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bigC_1.py took 0.145 seconds
