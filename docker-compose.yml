@@ -20,9 +20,11 @@ x-airflow-common:
     AIRFLOW_CONN_AWS_DEFAULT: "aws://admin:password@"
   volumes:
     - ./mnt/dags:/opt/airflow/dags
+    - ./data:/opt/airflow/data
     - ./mnt/logs:/opt/airflow/logs
     - ./mnt/plugins:/opt/airflow/plugins
     - ./mnt/tests:/opt/airflow/tests
+    
   user: "${AIRFLOW_UID:-50000}:${AIRFLOW_GID:-0}"
   depends_on:
     &airflow-common-depends-on

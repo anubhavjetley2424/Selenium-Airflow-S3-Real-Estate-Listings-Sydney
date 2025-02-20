@@ -1,0 +1,91 @@
+[2025-02-20T06:00:21.180+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-02-20T06:00:21.234+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: real_estate_scraper.scrape_real_estate_data manual__2025-02-20T06:00:19.135863+00:00 [queued]>
+[2025-02-20T06:00:21.255+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: real_estate_scraper.scrape_real_estate_data manual__2025-02-20T06:00:19.135863+00:00 [queued]>
+[2025-02-20T06:00:21.261+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 2
+[2025-02-20T06:00:21.502+0000] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): scrape_real_estate_data> on 2025-02-20 06:00:19.135863+00:00
+[2025-02-20T06:00:21.511+0000] {standard_task_runner.py:63} INFO - Started process 219 to run task
+[2025-02-20T06:00:21.515+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'real_estate_scraper', 'scrape_real_estate_data', 'manual__2025-02-20T06:00:19.135863+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/scrape_push.py', '--cfg-path', '/tmp/tmph_7bgg_f']
+[2025-02-20T06:00:21.522+0000] {standard_task_runner.py:91} INFO - Job 16: Subtask scrape_real_estate_data
+[2025-02-20T06:00:21.623+0000] {task_command.py:426} INFO - Running <TaskInstance: real_estate_scraper.scrape_real_estate_data manual__2025-02-20T06:00:19.135863+00:00 [running]> on host 8dd37492477c
+[2025-02-20T06:00:21.844+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='real_estate_scraper' AIRFLOW_CTX_TASK_ID='scrape_real_estate_data' AIRFLOW_CTX_EXECUTION_DATE='2025-02-20T06:00:19.135863+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-20T06:00:19.135863+00:00'
+[2025-02-20T06:00:21.847+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-02-20T06:00:21.947+0000] {logger.py:11} INFO - ====== WebDriver manager ======
+[2025-02-20T06:00:22.233+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-20T06:00:22.702+0000] {logger.py:11} INFO - About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+[2025-02-20T06:00:23.075+0000] {logger.py:11} INFO - Driver downloading response is 200
+[2025-02-20T06:00:25.516+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-20T06:00:26.198+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-20T06:00:26.622+0000] {logger.py:11} INFO - Driver has been saved in cache [/home/***/.wdm/drivers/chromedriver/linux64/114.0.5735.90]
+[2025-02-20T06:00:27.171+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-02-20T06:00:27.173+0000] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/scrape_push.py", line 14, in scrape_real_estate
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+  File "/home/airflow/.local/lib/python3.9/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.9/site-packages/selenium/webdriver/chromium/webdriver.py", line 56, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 205, in __init__
+    self.start_session(capabilities)
+  File "/home/airflow/.local/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 289, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+  File "/home/airflow/.local/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 344, in execute
+    self.error_handler.check_response(response)
+  File "/home/airflow/.local/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary
+Stacktrace:
+#0 0x55c37ecd24e3 <unknown>
+#1 0x55c37ea01c76 <unknown>
+#2 0x55c37ea28757 <unknown>
+#3 0x55c37ea27029 <unknown>
+#4 0x55c37ea65ccc <unknown>
+#5 0x55c37ea6547f <unknown>
+#6 0x55c37ea5cde3 <unknown>
+#7 0x55c37ea322dd <unknown>
+#8 0x55c37ea3334e <unknown>
+#9 0x55c37ec923e4 <unknown>
+#10 0x55c37ec963d7 <unknown>
+#11 0x55c37eca0b20 <unknown>
+#12 0x55c37ec97023 <unknown>
+#13 0x55c37ec651aa <unknown>
+#14 0x55c37ecbb6b8 <unknown>
+#15 0x55c37ecbb847 <unknown>
+#16 0x55c37eccb243 <unknown>
+#17 0x7fa8d04161c4 <unknown>
+
+[2025-02-20T06:00:27.203+0000] {taskinstance.py:1205} INFO - Marking task as UP_FOR_RETRY. dag_id=real_estate_scraper, task_id=scrape_real_estate_data, execution_date=20250220T060019, start_date=20250220T060021, end_date=20250220T060027
+[2025-02-20T06:00:27.235+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 16 for task scrape_real_estate_data (Message: unknown error: cannot find Chrome binary
+Stacktrace:
+#0 0x55c37ecd24e3 <unknown>
+#1 0x55c37ea01c76 <unknown>
+#2 0x55c37ea28757 <unknown>
+#3 0x55c37ea27029 <unknown>
+#4 0x55c37ea65ccc <unknown>
+#5 0x55c37ea6547f <unknown>
+#6 0x55c37ea5cde3 <unknown>
+#7 0x55c37ea322dd <unknown>
+#8 0x55c37ea3334e <unknown>
+#9 0x55c37ec923e4 <unknown>
+#10 0x55c37ec963d7 <unknown>
+#11 0x55c37eca0b20 <unknown>
+#12 0x55c37ec97023 <unknown>
+#13 0x55c37ec651aa <unknown>
+#14 0x55c37ecbb6b8 <unknown>
+#15 0x55c37ecbb847 <unknown>
+#16 0x55c37eccb243 <unknown>
+#17 0x7fa8d04161c4 <unknown>
+; 219)
+[2025-02-20T06:00:27.271+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-02-20T06:00:27.314+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-20T06:00:27.318+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
