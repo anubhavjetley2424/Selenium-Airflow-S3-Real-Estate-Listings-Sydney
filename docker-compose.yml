@@ -163,7 +163,7 @@ services:
     ports:
       - "8888:8888"
     volumes:
-      - ./mnt:/home/jovyan/work  # เชื่อมต่อโฟลเดอร์ที่ต้องการใช้งาน
+      - ./mnt:/home/jovyan/work 
     command: "start-notebook.sh --NotebookApp.token=''"
 
 
